@@ -1,0 +1,16 @@
+{
+  "name": "solana-bot",
+  "version": "1.0.0",
+  "description": "A Solana trading bot with wallet management, buy/sell, and pump fun modules.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.79.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.3",
+    "pumpfun-sdk": "^1.0.0", // Assuming this is the SDK for Pump.fun
+    "worker_threads": "^1.7.0"
+  }
+}
